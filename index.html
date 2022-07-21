@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="normalize.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="controls">
+      <div>Show weather at your current location</div>
+      <!-- <button id="btn_coords" class="btn" type="button">Get coordinates</button>
+      <button id="btn_geopos" class="btn" type="button">Get geoposition</button> -->
+      <button id="btn_show_weather" class="btn" type="button">Show weather</button>
+
+      <form>
+        <label for="city_input">Or enter a city</label>
+        <input type="text" class="city_input" id="city_input" placeholder="City" required>
+        <input type="button" id="btn_get_city_weather" value="Go">
+      </form>
+    </div>
+    <div class="diaplay">
+      <div id="display_coords"></div>
+      <div id="display_location"></div>
+      <div id="display_weather"></div>
+    </div>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="geolocation.js"></script>
+</body>
+
+</html>

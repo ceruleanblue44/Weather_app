@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  background-color: #DDFBFF;
+}
+/* Read about variable fonts - it's smth modern and interesting :-)  */
+
+.container {
+  width: 70%;
+  margin: 2% auto 0;
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  // border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+
+.city_input {
+  display: block;
+}
